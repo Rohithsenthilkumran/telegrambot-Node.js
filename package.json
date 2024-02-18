@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "telegrambot-node.js-main",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "inner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^8.1.1"
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
